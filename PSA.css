@@ -1,139 +1,135 @@
-#title{
-    font-family: 'Courier New', Courier, monospace;
+*,
+body {
+    font-family: 'JetBrains Mono';
+}
+
+#title {
     font-size: 50px;
     text-align: center;
 }
 
-#timeq{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#timeq {
     font-size: 20px;
     text-align: center;
 }
 
-#quantum{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#quantum {
     font-size: 20px;
-    border-color: black;
+    border: 3px solid black;
     width: 50px;
     border-radius: 7px;
-    border-width: 3px;
     text-align: center;
     font-weight: bold;
 }
 
-#algo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#algo {
     font-size: 20px;
     border-width: 3px;
     border-radius: 7px;
     background-color: #97f3ff;
     border-color: black;
     text-align: center;
+    cursor: pointer;
 }
 
-#buttons{
+#buttons {
     text-align: center;
 }
 
-#bt{
-    font-family: 'Courier New', Courier, monospace;
+#bt {
     font-weight: bold;
     font-size: 20px;
     padding: 3px;
     background-color: rgb(255, 246, 79);
     border-color: black;
-    border-width:2.5px;
+    border-width: 2.5px;
     border-radius: 7px;
 }
 
-#bt:hover{
+#bt:hover {
     background-color: rgb(202, 178, 0);
+    cursor: pointer;
+
 }
 
-#bt:active{
+#bt:active {
     background-color: rgb(0, 225, 150);
 }
 
-#addprocess{
-    font-family: 'Courier New', Courier, monospace;
+#addprocess {
     font-weight: bold;
     font-size: 20px;
     padding: 3px;
     background-color: rgb(255, 246, 79);
     border-color: black;
-    border-width:2.5px;
+    border-width: 2.5px;
     border-radius: 7px;
 }
 
-#addprocess:hover{
+#addprocess:hover {
     background-color: rgb(202, 178, 0);
+    cursor: pointer;
+
 }
 
-#addprocess:active{
+#addprocess:active {
     background-color: rgb(90, 233, 185);
 }
 
-#cont th{
+#cont th {
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#procTable input{
+#procTable input {
     border-color: rgb(0, 0, 0);
     text-align: center;
     font-size: 25px;
     border-width: 3px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ffe2cc;
 }
 
-#queues{
-    font-family: 'Courier New', Courier, monospace;
+#queues {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
 
-#readyqueue td{
+#readyqueue td {
     border-color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-collapse: collapse;
     border-width: 3px;
     padding: 2.5px;
-    font-size: 20px; 
+    font-size: 20px;
     padding-right: 15px;
     padding-left: 15px;
     background-color: aquamarine;
 }
 
-#ganttchart td{
+#ganttchart td {
     border-color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-collapse: collapse;
     border-width: 4px;
     padding: 5px;
-    font-size: 25px; 
+    font-size: 25px;
     padding-right: 35px;
     padding-left: 35px;
     background-color: #0ff3ff;
 }
 
-#timestamp td{
+#timestamp td {
     border-color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border : none;
+    border: none;
     font-size: 20px;
     text-align: left;
-    padding-right: 65px; 
+    padding-right: 65px;
     padding-left: 0px;
 }
 
-#ProcessTable td{
+#ProcessTable td {
     border-color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-collapse: collapse;
     border-width: 4px;
-    font-size: 25px; 
+    font-size: 25px;
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -146,26 +142,27 @@
     background-color: rgb(199, 220, 255);
 }
 
-#ProcessTable tr:first-child { 
-    background:#80ff63;
-}
-#ProcessTable tr:last-child { 
-    background:#ffa96c;
+#ProcessTable tr:first-child {
+    background: #80ff63;
 }
 
-#tables td{
+#ProcessTable tr:last-child {
+    background: #ffa96c;
+}
+
+#tables td {
     text-align: center;
 }
 
-table, td{
+table,
+td {
     font-weight: bold;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
 }
 
-#credits{
-    font-family: 'consolas';
+#credits {
     font-size: 20px;
     font-weight: bolder;
     text-align: right;
