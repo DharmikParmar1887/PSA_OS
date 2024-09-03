@@ -13,6 +13,10 @@
 
 This project visualizes Process Scheduling algorithms, a topic in Operating Systems. It includes a folder with three files: HTML, CSS, and JavaScript. The simulator helps users understand Process Scheduling Algorithms through necessary calculations and visualizations.
 
+## <a name="quick-start">🤸 Quick Start</a>
+
+ Link to Website [here](https://dharmikparmar1887.github.io/PSA_OS/)
+
 ## <a name="purpose">⚙️ Purpose</a>
 
 The project is designed to enhance understanding of Process Scheduling Algorithms by providing a visual representation along with the required calculations. The logic for the algorithms is implemented in JavaScript.
